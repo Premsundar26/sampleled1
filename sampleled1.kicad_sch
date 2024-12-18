@@ -614,6 +614,12 @@
 		)
 	)
 	(junction
+		(at 90.17 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "026a2703-07df-4e62-95ed-4c4949ea8170")
+	)
+	(junction
 		(at 111.76 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -624,6 +630,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50764c85-9dde-46fa-98f9-eabe913e15bd")
+	)
+	(junction
+		(at 100.33 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db38706e-625b-4757-9cfa-4edb65e3e24c")
 	)
 	(wire
 		(pts
@@ -657,6 +669,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 49.53) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53521017-0f14-4c5d-9295-145041802b39")
+	)
+	(wire
+		(pts
 			(xy 86.36 64.77) (xy 90.17 64.77)
 		)
 		(stroke
@@ -674,6 +696,16 @@
 			(type default)
 		)
 		(uuid "a70b67fc-0918-45c5-a4e3-85b426a7f6f5")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9768570-6de7-402e-9397-e2cee9bfc218")
 	)
 	(wire
 		(pts
@@ -788,6 +820,74 @@
 			(project ""
 				(path "/32f4ff92-77d1-4923-bce0-aa147d562103"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 95.25 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04175122-58e9-4369-baac-331bec2d77f2")
+		(property "Reference" "SW2"
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bd9ea302-8a2b-4d1a-88a7-30d82c108f33")
+		)
+		(pin "1"
+			(uuid "5ecce605-4b64-430e-8ffd-ae1c78d812c3")
+		)
+		(instances
+			(project "sampleled1"
+				(path "/32f4ff92-77d1-4923-bce0-aa147d562103"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
