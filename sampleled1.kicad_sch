@@ -783,7 +783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 95.25 59.69 0)
 			(effects
 				(font
@@ -851,7 +851,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 95.25 44.45 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 133.35 49.022 90)
 			(effects
 				(font
@@ -987,7 +987,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical"
 			(at 133.35 62.992 90)
 			(effects
 				(font
@@ -1057,7 +1057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Bulgin_BX0036_1xC"
 			(at 140.97 74.676 90)
 			(effects
 				(font
@@ -1125,7 +1125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
 			(at 115.57 50.8 0)
 			(effects
 				(font
@@ -1193,7 +1193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
 			(at 115.57 64.77 0)
 			(effects
 				(font
